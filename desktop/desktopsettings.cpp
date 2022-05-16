@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 YoyoOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -24,13 +24,13 @@
 
 DesktopSettings::DesktopSettings(QObject *parent)
     : QObject(parent)
-    , m_interface("com.cutefish.Settings",
-                  "/Theme", "com.cutefish.Theme",
+    , m_interface("com.yoyo.Settings",
+                  "/Theme", "com.yoyo.Theme",
                   QDBusConnection::sessionBus(), this)
 {
     QDBusServiceWatcher *watcher = new QDBusServiceWatcher(this);
     watcher->setConnection(QDBusConnection::sessionBus());
-    watcher->addWatchedService("com.cutefish.Settings");
+    watcher->addWatchedService("com.yoyo.Settings");
     connect(watcher, &QDBusServiceWatcher::serviceRegistered, this, &DesktopSettings::init);
 
     init();

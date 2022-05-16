@@ -325,7 +325,7 @@
     </message>
     <message>
         <location filename="../qml/FolderPage.qml" line="115"/>
-        <source>A file manager designed for CutefishOS.</source>
+        <source>A file manager designed for YoyoOS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
