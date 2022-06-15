@@ -28,47 +28,8 @@ add_executable(yoyo-filemanager
   application.cpp
   window.cpp
   dbusinterface.cpp
-
-  draganddrop/declarativedroparea.cpp
-  draganddrop/declarativedragdropevent.cpp
-  draganddrop/declarativemimedata.cpp
-
-  model/foldermodel.cpp
-  model/placesmodel.cpp
-  model/placesitem.cpp
-  model/pathbarmodel.cpp
-  model/dirlister.cpp
-  model/positioner.cpp
-
-  cio/cfilejob.cpp
-  cio/cfilesizejob.cpp
-
-  dialogs/createfolderdialog.cpp
-  dialogs/filepropertiesdialog.cpp
-  dialogs/openwithdialog.cpp
-  widgets/rubberband.cpp
-  widgets/itemviewadapter.cpp
-
-  desktop/desktop.cpp
-  desktop/desktopview.cpp
-  desktop/desktopsettings.cpp
-  desktop/dockdbusinterface.cpp
-
-  helper/datehelper.cpp
-  helper/pathhistory.cpp
-  helper/fm.cpp
-  helper/shortcut.cpp
-  helper/filelauncher.cpp
-  helper/keyboardsearchmanager.cpp
-
-  mimetype/mimeappmanager.cpp
-  mimetype/xdgdesktopfile.cpp
-
   thumbnailer/thumbnailprovider.cpp
   thumbnailer/thumbnailcache.cpp
-
-  desktopiconprovider.cpp
-
   qml.qrc
 
   ${DBUS_SOURCES}
