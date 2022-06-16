@@ -85,7 +85,13 @@ FishUI.Window {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 onItemClicked: _folderPage.openUrl(path)
-                onEditorAccepted: _folderPage.openUrl(path)
+                onEditorAccepted: {
+                    if(path.indexOf("/") != -1){
+                        _folderPage.openUrl(path)
+                    }else{
+                        _folderPage.keyboardSearch(path)
+                    }
+                }
             }
 
             IconButton {
