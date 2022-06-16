@@ -449,9 +449,8 @@ Item {
         _viewLoader.item.forceActiveFocus()
     }
 
-    function keyboardSearch(text) {
-        dirModel.keyboardSearch(text)
-        _viewLoader.item.forceActiveFocus()
+    function search(text) {
+
     }
 
     function goBack() {

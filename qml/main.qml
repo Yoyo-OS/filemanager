@@ -89,7 +89,7 @@ FishUI.Window {
                     if(path.indexOf("/") != -1){
                         _folderPage.openUrl(path)
                     }else{
-                        _folderPage.keyboardSearch(path)
+                        _folderPage.search(path)
                     }
                 }
             }
