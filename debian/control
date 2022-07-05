@@ -29,7 +29,24 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-window2,
          qml-module-qtquick-shapes,
          qml-module-qtquick-dialogs,
-         qml-module-qtgraphicaleffects
+         qml-module-qtgraphicaleffects,
+         libyoyo-filemanager,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: YoyoOS File Manager
+
+Package: libyoyo-filemanager
+Architecture: any
+Depends: qml-module-qtquick-controls2,
+         qml-module-qtquick2,
+         qml-module-qtquick-layouts,
+         qml-module-qt-labs-platform,
+         qml-module-qt-labs-settings,
+         qml-module-qtqml,
+         qml-module-qtquick-window2,
+         qml-module-qtquick-shapes,
+         qml-module-qtquick-dialogs,
+         qml-module-qtgraphicaleffects,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: YoyoOS File Manager Lib

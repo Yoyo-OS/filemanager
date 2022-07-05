@@ -56,6 +56,9 @@ qt5_create_translation(QM_FILES ${TS_FILES})
 add_custom_target(translations DEPENDS ${QM_FILES} SOURCES ${TS_FILES})
 add_dependencies(yoyo-filemanager translations)
 
+add_subdirectory(filemanager)
+add_subdirectory(dragdrop)
+
 install(TARGETS yoyo-filemanager RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES yoyo-filemanager.desktop DESTINATION "/usr/share/applications")
 install(FILES ${QM_FILES} DESTINATION /usr/share/yoyo-filemanager/translations)
