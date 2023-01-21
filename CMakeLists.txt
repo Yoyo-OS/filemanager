@@ -11,7 +11,20 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5 COMPONENTS Core DBus Quick LinguistTools REQUIRED)
+set(QT Core Gui Quick QuickControls2 Widgets DBus Xml Concurrent)
+find_package(Qt5 COMPONENTS Core DBus Quick LinguistTools REQUIRED ${QT})
+
+# Get the installation directory from qmake
+get_target_property(QT_QMAKE_EXECUTABLE ${Qt5Core_QMAKE_EXECUTABLE} IMPORTED_LOCATION)
+if (NOT QT_QMAKE_EXECUTABLE)
+    message(FATAL_ERROR "qmake is not found.")
+endif ()
+
+execute_process(COMMAND ${QT_QMAKE_EXECUTABLE} -query QT_INSTALL_QML
+    OUTPUT_VARIABLE INSTALL_QMLDIR
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+
 # find_package(FishUI REQUIRED)
 
 find_package(KF5KIO)
