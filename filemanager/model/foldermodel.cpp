@@ -57,6 +57,7 @@
 #include <QSettings>
 #include <QDesktopServices>
 #include <QPixmapCache>
+#include <QTranslator>
 
 // Qt Quick
 #include <QQuickItem>
@@ -111,6 +112,18 @@ FolderModel::FolderModel(QObject *parent)
 {
     QSettings settings("yoyoos", qApp->applicationName());
     m_showHiddenFiles = settings.value("showHiddenFiles", false).toBool();
+
+    // Translations
+    QLocale locale;
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/yoyo-filemanager/translations/").arg(locale.name());
+    if (QFile::exists(qmFilePath)) {
+        QTranslator *translator = new QTranslator(QApplication::instance());
+        if (translator->load(qmFilePath)) {
+            QGuiApplication::installTranslator(translator);
+        } else {
+            translator->deleteLater();
+        }
+    }
 
     m_updateNeedSelectTimer->setSingleShot(true);
     m_updateNeedSelectTimer->setInterval(50);

@@ -114,12 +114,12 @@
 <context>
     <name>FilePropertiesDialog</name>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="179"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="179"/>
         <source>Properties</source>
         <translation>Свойства</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="227"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="227"/>
         <source>%1 files</source>
         <translation>%1 файлов</translation>
     </message>
@@ -127,102 +127,102 @@
 <context>
     <name>FolderModel</name>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 item</source>
         <translation>%1 объект</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 items</source>
         <translation>%1 объектов</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="249"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="249"/>
         <source>The file or folder %1 does not exist.</source>
         <translation>Файл или папка %1 не существует.</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="981"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="981"/>
         <source>Select All</source>
         <translation>Выделить всё</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1088"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1088"/>
         <source>File Manager</source>
         <translation>Файловый менеджер</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1281"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1281"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1284"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1284"/>
         <source>Open with</source>
         <translation>Открыть как</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1287"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1287"/>
         <source>Cut</source>
         <translation>Вырезать</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1290"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1290"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1293"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1293"/>
         <source>Paste</source>
         <translation>Вставить</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1296"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1296"/>
         <source>New Folder</source>
         <translation>Новая папка</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1299"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1299"/>
         <source>Move To Trash</source>
         <translation>Переместить в корзину</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1302"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1302"/>
         <source>Empty Trash</source>
         <translation>Очистить корзину</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1305"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1305"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1308"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1308"/>
         <source>Rename</source>
         <translation>Переименовать</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1311"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1311"/>
         <source>Open in Terminal</source>
         <translation>Открыть в терминале</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1314"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1314"/>
         <source>Set as Wallpaper</source>
         <translation>Установить как обои</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1317"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1317"/>
         <source>Properties</source>
         <translation>Свойства</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1320"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1320"/>
         <source>Change background</source>
         <translation>Изменить фон</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1323"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1323"/>
         <source>Restore</source>
         <translation>Восстановить</translation>
     </message>
@@ -339,7 +339,7 @@
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="32"/>
+        <location filename="../filemanager/dialogs/openwithdialog.cpp" line="32"/>
         <source>Open With</source>
         <translation>Открыть как</translation>
     </message>
@@ -380,48 +380,48 @@
 <context>
     <name>PlacesModel</name>
     <message>
-        <location filename="../model/placesmodel.cpp" line="39"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="39"/>
         <source>Home</source>
         <translation>Домашний каталог</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="47"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="47"/>
         <source>Desktop</source>
         <translation>Рабочий стол</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="55"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="55"/>
         <source>Documents</source>
         <translation>Документы</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="63"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="63"/>
         <source>Downloads</source>
         <translation>Загрузки</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="71"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="71"/>
         <source>Music</source>
         <translation>Музыка</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="79"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="79"/>
         <source>Pictures</source>
         <translation>Изображения</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="87"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="87"/>
         <source>Videos</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="93"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="93"/>
         <source>Trash</source>
         <translation>Корзина</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="117"/>
-        <location filename="../model/placesmodel.cpp" line="265"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="117"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="265"/>
         <source>Drives</source>
         <translation>Диски</translation>
     </message>

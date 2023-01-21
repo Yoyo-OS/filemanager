@@ -114,12 +114,12 @@
 <context>
     <name>FilePropertiesDialog</name>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="179"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="179"/>
         <source>Properties</source>
         <translation type="unfinished">屬性</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="227"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="227"/>
         <source>%1 files</source>
         <translation type="unfinished">%1 檔案</translation>
     </message>
@@ -127,102 +127,102 @@
 <context>
     <name>FolderModel</name>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 item</source>
         <translation>%1 件物品</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 items</source>
         <translation>%1 件物品</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="249"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="249"/>
         <source>The file or folder %1 does not exist.</source>
         <translation>這個文件或文件夾%1不存在。</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="981"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="981"/>
         <source>Select All</source>
         <translation>選擇全部</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1088"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1088"/>
         <source>File Manager</source>
         <translation type="unfinished">檔案管理員</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1281"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1281"/>
         <source>Open</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1284"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1284"/>
         <source>Open with</source>
         <translation>用什麼打開</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1287"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1287"/>
         <source>Cut</source>
         <translation>剪下</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1290"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1290"/>
         <source>Copy</source>
         <translation>拷貝</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1293"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1293"/>
         <source>Paste</source>
         <translation>貼上</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1296"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1296"/>
         <source>New Folder</source>
         <translation>新建資料夾</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1299"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1299"/>
         <source>Move To Trash</source>
         <translation>移至回收筒</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1302"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1302"/>
         <source>Empty Trash</source>
         <translation>清空回收筒</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1305"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1305"/>
         <source>Delete</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1308"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1308"/>
         <source>Rename</source>
         <translation>重新命名</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1311"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1311"/>
         <source>Open in Terminal</source>
         <translation>在終端機中開啓</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1314"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1314"/>
         <source>Set as Wallpaper</source>
         <translation>設為桌布</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1317"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1317"/>
         <source>Properties</source>
         <translation>屬性</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1320"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1320"/>
         <source>Change background</source>
         <translation>更換背景</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1323"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1323"/>
         <source>Restore</source>
         <translation>還原</translation>
     </message>
@@ -339,7 +339,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="32"/>
+        <location filename="../filemanager/dialogs/openwithdialog.cpp" line="32"/>
         <source>Open With</source>
         <translation type="unfinished"></translation>
     </message>
@@ -380,48 +380,48 @@
 <context>
     <name>PlacesModel</name>
     <message>
-        <location filename="../model/placesmodel.cpp" line="39"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="39"/>
         <source>Home</source>
         <translation>個人資料夾</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="47"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="47"/>
         <source>Desktop</source>
         <translation>桌面</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="55"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="55"/>
         <source>Documents</source>
         <translation>文件</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="63"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="63"/>
         <source>Downloads</source>
         <translation>下載</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="71"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="71"/>
         <source>Music</source>
         <translation>音樂</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="79"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="79"/>
         <source>Pictures</source>
         <translation>圖片</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="87"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="87"/>
         <source>Videos</source>
         <translation>影片</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="93"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="93"/>
         <source>Trash</source>
         <translation>回收筒</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="117"/>
-        <location filename="../model/placesmodel.cpp" line="265"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="117"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="265"/>
         <source>Drives</source>
         <translation type="unfinished"></translation>
     </message>

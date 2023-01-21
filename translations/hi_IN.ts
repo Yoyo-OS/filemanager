@@ -114,12 +114,12 @@
 <context>
     <name>FilePropertiesDialog</name>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="179"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="179"/>
         <source>Properties</source>
         <translation>गुण</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="227"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="227"/>
         <source>%1 files</source>
         <translation>%1 फ़ाइलें</translation>
     </message>
@@ -127,102 +127,102 @@
 <context>
     <name>FolderModel</name>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 item</source>
         <translation>%1 वस्तु</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="184"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="184"/>
         <source>%1 items</source>
         <translation>%1 वस्तुये</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="249"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="249"/>
         <source>The file or folder %1 does not exist.</source>
         <translation>फ़ाइल या फ़ोल्डर %1 मौजूद नहीं है।</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="981"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="981"/>
         <source>Select All</source>
         <translation>सब चुने</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1088"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1088"/>
         <source>File Manager</source>
         <translation>फ़ाइल प्रबंधक</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1281"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1281"/>
         <source>Open</source>
         <translation>खोले</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1284"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1284"/>
         <source>Open with</source>
         <translation>अन्य अनुप्रयोग में खोले</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1287"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1287"/>
         <source>Cut</source>
         <translation>कट करना</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1290"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1290"/>
         <source>Copy</source>
         <translation>प्रतिलिपि बनाना</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1293"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1293"/>
         <source>Paste</source>
         <translation>(पेस्ट) यहाँ रखे</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1296"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1296"/>
         <source>New Folder</source>
         <translation>नया फोल्डर</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1299"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1299"/>
         <source>Move To Trash</source>
         <translation>ट्रैश में भेजो</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1302"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1302"/>
         <source>Empty Trash</source>
         <translation>ट्रैश खाली करो</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1305"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1305"/>
         <source>Delete</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1308"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1308"/>
         <source>Rename</source>
         <translation>मिटाये</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1311"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1311"/>
         <source>Open in Terminal</source>
         <translation>टर्मिनल में खोलें</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1314"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1314"/>
         <source>Set as Wallpaper</source>
         <translation>वॉलपेपर के रूप में सेट</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1317"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1317"/>
         <source>Properties</source>
         <translation>गुण</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1320"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1320"/>
         <source>Change background</source>
         <translation>बैकग्राउंड बदलें</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1323"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1323"/>
         <source>Restore</source>
         <translation>लौटाए</translation>
     </message>
@@ -339,7 +339,7 @@
         <translation>खोले</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="32"/>
+        <location filename="../filemanager/dialogs/openwithdialog.cpp" line="32"/>
         <source>Open With</source>
         <translation>अन्य अनुप्रयोग (एप्लीकेशन) में खोले</translation>
     </message>
@@ -380,48 +380,48 @@
 <context>
     <name>PlacesModel</name>
     <message>
-        <location filename="../model/placesmodel.cpp" line="39"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="39"/>
         <source>Home</source>
         <translation>होम</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="47"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="47"/>
         <source>Desktop</source>
         <translation>डेस्कटॉप</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="55"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="55"/>
         <source>Documents</source>
         <translation>डाक्यूमेंट</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="63"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="63"/>
         <source>Downloads</source>
         <translation>डाउनलोड</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="71"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="71"/>
         <source>Music</source>
         <translation>संगीत</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="79"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="79"/>
         <source>Pictures</source>
         <translation>चित्र</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="87"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="87"/>
         <source>Videos</source>
         <translation>वीडियो</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="93"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="93"/>
         <source>Trash</source>
         <translation>ट्रैश</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="117"/>
-        <location filename="../model/placesmodel.cpp" line="265"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="117"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="265"/>
         <source>Drives</source>
         <translation>ड्राइव</translation>
     </message>

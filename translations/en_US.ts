@@ -114,12 +114,12 @@
 <context>
     <name>FilePropertiesDialog</name>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="192"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="192"/>
         <source>Properties</source>
         <translation>Properties</translation>
     </message>
     <message>
-        <location filename="../dialogs/filepropertiesdialog.cpp" line="245"/>
+        <location filename="../filemanager/dialogs/filepropertiesdialog.cpp" line="245"/>
         <source>%1 files</source>
         <translation>%1 files</translation>
     </message>
@@ -127,125 +127,125 @@
 <context>
     <name>FolderModel</name>
     <message>
-        <location filename="../model/foldermodel.cpp" line="295"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="295"/>
         <source>%1 item</source>
         <translation>%1 item</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="295"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="295"/>
         <source>%1 items</source>
         <translation>%1 items</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="400"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="400"/>
         <source>The file or folder %1 does not exist.</source>
         <translation>The file or folder %1 does not exist.</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1256"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1256"/>
         <source>Select All</source>
         <translation>Select All</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1373"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1373"/>
         <source>File Manager</source>
         <translation>File Manager</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1691"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1691"/>
         <source>Open</source>
         <translation>Open</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1694"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1694"/>
         <source>Open with</source>
         <translation>Open with</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1697"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1697"/>
         <source>Cut</source>
         <translation>Cut</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1700"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1700"/>
         <source>Copy</source>
         <translation>Copy</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1703"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1703"/>
         <source>Paste</source>
         <translation>Paste</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="898"/>
-        <location filename="../model/foldermodel.cpp" line="1706"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="898"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1706"/>
         <source>New Folder</source>
         <translation>New Folder</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="920"/>
-        <location filename="../model/foldermodel.cpp" line="1710"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="920"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1710"/>
         <source>New Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1259"/>
-        <location filename="../model/foldermodel.cpp" line="1709"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1259"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1709"/>
         <source>New Documents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1714"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1714"/>
         <source>Move To Trash</source>
         <translation>Move To Trash</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1717"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1717"/>
         <source>Empty Trash</source>
         <translation>Empty Trash</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1720"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1720"/>
         <source>Delete</source>
         <translation>Delete</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1723"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1723"/>
         <source>Rename</source>
         <translation>Rename</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1726"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1726"/>
         <source>Open in Terminal</source>
         <translation>Open in Terminal</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1729"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1729"/>
         <source>Set as Wallpaper</source>
         <translation>Set as Wallpaper</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1732"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1732"/>
         <source>Properties</source>
         <translation>Properties</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1735"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1735"/>
         <source>Change background</source>
         <translation>Change background</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1738"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1738"/>
         <source>Restore</source>
         <translation>Restore</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1741"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1741"/>
         <source>Show hidden files</source>
         <translation>Show hidden files</translation>
     </message>
     <message>
-        <location filename="../model/foldermodel.cpp" line="1746"/>
+        <location filename="../filemanager/model/foldermodel.cpp" line="1746"/>
         <source>Open in new window</source>
         <translation type="unfinished"></translation>
     </message>
@@ -372,7 +372,7 @@
         <translation>Open</translation>
     </message>
     <message>
-        <location filename="../dialogs/openwithdialog.cpp" line="32"/>
+        <location filename="../filemanager/dialogs/openwithdialog.cpp" line="32"/>
         <source>Open With</source>
         <translation>Open With</translation>
     </message>
@@ -413,53 +413,53 @@
 <context>
     <name>PlacesModel</name>
     <message>
-        <location filename="../model/placesmodel.cpp" line="39"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="39"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="47"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="47"/>
         <source>Desktop</source>
         <translation>Desktop</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="55"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="55"/>
         <source>Documents</source>
         <translation>Documents</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="63"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="63"/>
         <source>Downloads</source>
         <translation>Downloads</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="71"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="71"/>
         <source>Music</source>
         <translation>Music</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="79"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="79"/>
         <source>Pictures</source>
         <translation>Pictures</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="87"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="87"/>
         <source>Videos</source>
         <translation>Videos</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="93"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="93"/>
         <source>Trash</source>
         <translation>Trash</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="117"/>
-        <location filename="../model/placesmodel.cpp" line="288"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="117"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="288"/>
         <source>Drives</source>
         <translation>Drives</translation>
     </message>
     <message>
-        <location filename="../model/placesmodel.cpp" line="169"/>
+        <location filename="../filemanager/model/placesmodel.cpp" line="169"/>
         <source>Computer</source>
         <translation type="unfinished"></translation>
     </message>
